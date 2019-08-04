@@ -6,7 +6,7 @@ function getSessionsBySpace()
     let sessionsBySpace = {};
     let sessions = require('./sessions.json');
     for (let session of Object.values(sessions)) {
-        if (!session.track) {
+        if (!session.space || session.space == 'main-hall') {
             continue;
         }
         let spaceId = session.space;

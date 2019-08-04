@@ -8,7 +8,6 @@ function buildSchedule()
 
 
     let speakers  = require('./speakers.json');
-    let tracks = require('./tracks.json');
     let spaces = require('./spaces.json');
     let times = require('./timePeriods.json');
 
@@ -18,10 +17,9 @@ function buildSchedule()
     };
     scheduleTable.head.push({ title: 'Time', type: 'timespan' });
     for (let space of Object.values(spaces)) {
-        let track = tracks[space.track];
         scheduleTable.head.push({
-            title: track.title,
-            subtitle: space.title,
+            title: space.title,
+            subtitle: '',
             type: 'track',
         })
     }

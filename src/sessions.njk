@@ -1,9 +1,9 @@
 ---
 layout: page-layout.njk
-title: 2017 Sessions
-meta_title: '2017 Sessions :: Vermont Code Camp'
-description: Read more about the sessions of Vermont Code Camp 2017
-meta_description: Read more about the sessions of Vermont Code Camp 2017
+title: 2016 Sessions
+meta_title: '2016 Sessions :: Vermont Code Camp'
+description: Read more about the sessions of Vermont Code Camp 2016
+meta_description: Read more about the sessions of Vermont Code Camp 2016
 ---
 
 <h1>{{title}}</h1>
@@ -12,9 +12,7 @@ meta_description: Read more about the sessions of Vermont Code Camp 2017
 {% for spaceSlug, spaceSessions in sessionsBySpace %}
 <article class="space">
 
-    {% set trackSlug = spaces[spaceSlug].track %}
-
-    <h2 id="{{ spaceSlug }}"> {{ tracks[trackSlug].title }} <small>({{ spaces[spaceSlug].title }})</small></h2>
+    <h2 id="{{ spaceSlug }}">{{ spaces[spaceSlug].title }}</h2>
 
     {% for timeCode, session in spaceSessions %}
     <article class="session">
