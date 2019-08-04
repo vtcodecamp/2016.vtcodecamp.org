@@ -49,7 +49,7 @@ aside.page {
     text-align: center;
 }
 aside.page,
-aside.page a{
+aside.page a {
     color: white;
     vertical-align: top;
 }
@@ -155,7 +155,7 @@ header.page nav li a:focus {
 
     header.page nav {
         width: 45%;
-    }
+}
     header.page nav li {
         font-size: 1.3em;
     }
@@ -163,7 +163,7 @@ header.page nav li a:focus {
 @media all and (min-width: 600px) {
     header.page nav li {
         font-size: 1.5em;
-    }
+}
 }
 @media all and (min-width: 768px) {
     header.page nav li {
@@ -205,72 +205,72 @@ header.page nav li a:focus {
 .page.content .meta .location {
     max-width: 60%;
     color: var(--dark-gray);
-}
+    }
 .page.content .meta .date-time,
 .page.content .meta .location {
-    display: inline-block;
-    margin: 0 0.3em;
-    vertical-align: middle;
-}
+        display: inline-block;
+        margin: 0 0.3em;
+        vertical-align: middle;
+    }
 .page.content .meta .date-time {
-    font-weight: normal;
-}
+        font-weight: normal;
+    }
 
 .page.content .meta .day,
 .page.content .meta .month,
 .page.content .meta .date,
 .page.content .meta .time {
-    line-height: 1;
-    text-transform: uppercase;
-}
+        line-height: 1;
+        text-transform: uppercase;
+    }
 .page.content .meta .day {
     font-size: 0.75em;
     margin-bottom: 0.25em;
-}
+    }
 .page.content .meta .time {
     font-size: 0.75em;
     margin-top: 0.3em;
-}
+    }
 .page.content .meta .month,
 .page.content .meta .date {
     border: 2px solid var(--medium-gray);
-    font-weight: bold;
+        font-weight: bold;
     color: var(--medium-gray);
-}
+    }
 .page.content .meta .month {
-    padding: 0.3em 0.4em 0.2em;
+        padding: 0.3em 0.4em 0.2em;
     background-color: var(--medium-gray);
-    border-bottom: none;
-    font-size: 1.3em;
+        border-bottom: none;
+        font-size: 1.3em;
     color: white;
-}
+    }
 .page.content .meta .date {
     font-size: 2.4em;
 
-    padding: 0.2em 0.4em;
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.2)));
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-}
+        padding: 0.2em 0.4em;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.2)));
+        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+        background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+        background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+        background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    }
 
 .page.content .meta .location {
-    line-height: 1.1;
-    text-align: left;
-}
+        line-height: 1.1;
+        text-align: left;
+    }
 .page.content .meta .building {
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 .page.content .meta .place {
     font-size: 1.35em;
 }
 .page.content .meta .address {
 
-}
+    }
 .page.content .meta .address {
     
-}
+    }
 
 @media all and (min-width: 400px) {
     .page.content .meta .location {
@@ -281,11 +281,11 @@ header.page nav li a:focus {
     .page.content .meta {
         max-width: 56%;
     }
-}
+    }
 @media all and (min-width: 800px) {
     .page.content .meta {
         max-width: none;
-    }
+}
     .page.content .meta .location {
         max-width: none;
     }
@@ -403,81 +403,231 @@ ul.sponsors li.name-only {
     background-position: center center;
     text-indent: -999em;
 }
-.logo.champlain-college {
+.logo.the-university-of-vermont {
     width: 250px;
-    height: 58px;
-    background-image: url(/media/sponsors/champlain-college-logo-250x58.png);
+    height: 64px;
+    background-image: url(/media/sponsors/The-University-of-Vermont-logo-250x64.jpg);
 }
-.logo.cox-automotive {
-    width: 200px;
-    height: 80px;
-    background-image: url(/media/sponsors/cox-automotive-logo-200x80.png);
+.logo.the-university-of-vermont-grossman-school-of-business {
+    width: 250px;
+    height: 89px;
+    background-image: url(/media/sponsors/The-University-of-Vermont-Grossman-School-of-Business-logo-250x89.jpg);
 }
-.logo.burlington-telecom {
-    width: 225px;
-    height: 57px;
-    background-image: url(/media/sponsors/burlington-telecom-logo-225x57.png);
-}
-.logo.vermont-information-processing {
-    width: 110px;
-    height: 109px;
-    background-image: url(/media/sponsors/vermont-information-processing-logo-110x109.png);
-}
-.logo.the-university-of-vermont-medical-center {
-    width: 225px;
-    height: 66px;
-    background-image: url(/media/sponsors/the-university-of-vermont-medical-center-logo-225x66.png);
+.logo.found-line {
+    height: 56px;
+    background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
 }
 .logo.mywebgrocer {
-    width: 225px;
-    height: 108px;
-    background-image: url(/media/sponsors/mywebgrocer-logo-225x108.png);
+    height: 73px;
+    background-image: url(/media/sponsors/MyWebGrocer-logo-150x73.jpg);
 }
-.logo.galen-healthcare-solutions {
-    width: 175px;
+.logo.mywebgrocer-primary-grey-background {
+    height: 75px;
+    background-image: url(/media/sponsors/MyWebGrocer-primary-grey-background-logo-150x75.jpg);
+}
+.logo.dealer-dot-com {
+    width: 250px;
+    height: 22px;
+    background-image: url(/media/sponsors/Dealer-Dot-Com-logo-250x22.jpg);
+}
+.logo.telerik {
+    height: 59px;
+    background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
+}
+.logo.vermont-tech-jam {
+    height: 90px;
+    background-image: url(/media/sponsors/Vermont-Tech-Jam-logo-150x90.jpg);
+}
+.logo.champlain-college {
+    width: 250px;
+    height: 16px;
+    background-image: url(/media/sponsors/Champlain-College-logo-250x16.jpg);
+}
+.logo.componentone {
+    width: 142px;
+    height: 100px;
+    background-image: url(/media/sponsors/ComponentOne-logo-142x100.jpg);
+}
+.logo.jetbrains {
+    height: 150px;
+    background-image: url(/media/sponsors/JetBrains-logo-150x150.jpg);
+}
+.logo.agilion-apps {
+    height: 34px;
+    background-image: url(/media/sponsors/Agilion-Apps-logo-150x34.jpg);
+}
+.logo.misys {
     height: 42px;
-    background-image: url(/media/sponsors/galen-healthcare-solutions-logo-175x42.png);
+    background-image: url(/media/sponsors/MISys-logo-150x42.jpg);
+}
+.logo.tyler-technologies {
+    height: 53px;
+    background-image: url(/media/sponsors/Tyler-Technologies-logo-150x53.jpg);
+}
+.logo.oreilly-media {
+    height: 41px;
+    background-image: url(/media/sponsors/OReilly-Media-logo-150x41.jpg);
+}
+.logo.code-magazine {
+    height: 55px;
+    background-image: url(/media/sponsors/CODE-Magazine-logo-150x55.jpg);
+}
+.logo.wrox {
+    height: 100px;
+    background-image: url(/media/sponsors/Wrox-logo-100x100.jpg);
+}
+.logo.lake-champlain-shoreline-cruises {
+    height: 100px;
+    background-image: url(/media/sponsors/Lake-Champlain-Shoreline-Cruises-logo-100x100.jpg);
+}
+.logo.logicnp-software {
+    height: 39px;
+    background-image: url(/media/sponsors/LogicNP-Software-logo-150x39.jpg);
+}
+.logo.devexpress {
+    height: 28px;
+    background-image: url(/media/sponsors/DevExpress-logo-150x28.jpg);
+}
+.logo.champlain-mini-maker-faire {
+    height: 53px;
+    background-image: url(/media/sponsors/Champlain-Mini-Maker-Faire-logo-150x53.jpg);
+}
+.logo.vermont-state-parks {
+    width: 121px;
+    height: 100px;
+    background-image: url(/media/sponsors/Vermont-State-Parks-logo-121x100.jpg);
+}
+.logo.dzone {
+    height: 41px;
+    background-image: url(/media/sponsors/DZone-logo-150x41.jpg);
+}
+.logo.vermont-makers {
+    height: 40px;
+    background-image: url(/media/sponsors/Vermont-Makers-logo-150x40.jpg);
+}
+.logo.ux-design-edge {
+    height: 24px;
+    background-image: url(/media/sponsors/UX-Design-Edge-logo-150x24.jpg);
+}
+.logo.crc-press {
+    height: 47px;
+    background-image: url(/media/sponsors/CRC-Press-logo-150x47.jpg);
+}
+.logo.apress {
+    height: 32px;
+    background-image: url(/media/sponsors/Apress-logo-150x32.jpg);
+}
+.logo.pearson-user-groups {
+    width: 100px;
+    height: 100px;
+    background-image: url(/media/sponsors/Pearson-User-Groups-logo-100x100.jpg);
+}
+.logo.techsmith {
+    height: 23px;
+    background-image: url(/media/sponsors/TechSmith-logo-150x23.jpg);
+}
+.logo.wiley {
+    height: 32px;
+    background-image: url(/media/sponsors/Wiley-logo-150x32.jpg);
+}
+.logo.safari-books-online {
+    height: 74px;
+    background-image: url(/media/sponsors/Safari-Books-Online-logo-150x74.jpg);
+}
+.logo.evolution {
+    height: 55px;
+    background-image: url(/media/sponsors/Evolution-logo-150x55.jpg);
+}
+.logo.evolution-hcm-technology {
+    height: 86px;
+    background-image: url(/media/sponsors/Evolution-HCM-Technology-logo-150x86.jpg);
+}
+.logo.pluralsight {
+    height: 28px;
+    background-image: url(/media/sponsors/Pluralsight-logo-150x28.jpg);
+}
+.logo.logic-supply {
+    height: 64px;
+    background-image: url(/media/sponsors/Logic-Supply-logo-150x64.jpg);
+}
+.logo.wintellectnow {
+    height: 49px;
+    background-image: url(/media/sponsors/WintellectNOW-logo-150x49.jpg);
+}
+.logo.improving-enterprises {
+    height: 47px;
+    background-image: url(/media/sponsors/Improving-Enterprises-logo-150x47.jpg);
+}
+.logo.middlebury-interactive-languages {
+    width: 125px;
+    height: 68px;
+    background-image: url(/media/sponsors/Middlebury-Interactive-Languages-logo-125x68.jpg);
 }
 .logo.competitive-computing {
     width: 100px;
     height: 68px;
-    background-image: url(/media/sponsors/competitive-computing-logo-100x68.png);
+    background-image: url(/media/sponsors/Competitive-Computing-logo-100x68.jpg);
 }
-.logo.logic-supply {
-    width: 150px;
-    height: 64px;
-    background-image: url(/media/sponsors/logic-supply-logo-150x64.png);
-}
-.logo.burlington-code {
-    width: 150px;
+.logo.xamarin {
+    width: 75px;
     height: 67px;
-    background-image: url(/media/sponsors/burlington-code-logo-150x67.png);
+    background-image: url(/media/sponsors/Xamarin-logo-75x67.jpg);
 }
-.logo.tyler-technologies {
-    width: 150px;
-    height: 52px;
-    background-image: url(/media/sponsors/tyler-technologies-logo-150x52.png);
+.logo.eatingwell {
+    height: 48px;
+    background-image: url(/media/sponsors/EatingWell-logo-150x48.jpg);
 }
-.logo.code-magazine {
-    width: 150px;
-    height: 54px;
-    background-image: url(/media/sponsors/code-magazine-logo-150x54.png);
+.logo.afl {
+    height: 47px;
+    background-image: url(/media/sponsors/AFL-logo-150x47.jpg);
 }
-.logo.esri {
-    width: 175px;
-    height: 102px;
-    background-image: url(/media/sponsors/esri-logo-175x102.png);
+.logo.keurig-green-mountain {
+    width: 200px;
+    height: 46px;
+    background-image: url(/media/sponsors/Keurig-Green-Mountain-logo-200x46.jpg);
 }
-.logo.btv-ignite {
-    width: 150px;
-    height: 75px;
-    background-image: url(/media/sponsors/btv-ignite-logo-150x75.png);
+.logo.stg {
+    height: 49px;
+    background-image: url(/media/sponsors/STG-logo-150x49.jpg);
+}
+.logo.galen-healthcare-solutions {
+    height: 36px;
+    background-image: url(/media/sponsors/Galen-Healthcare-Solutions-logo-150x36.jpg);
+}
+.logo.vermont-design-works {
+    height: 43px;
+    background-image: url(/media/sponsors/Vermont-Design-Works-logo-150x43.jpg);
 }
 .logo.girl-develop-it {
+    height: 40px;
+    background-image: url(/media/sponsors/Girl-Develop-It-logo-150x40.jpg);
+}
+.logo.aseba {
+    height: 125px;
+    background-image: url(/media/sponsors/ASEBA-logo-150x125.jpg);
+}
+.logo.mach7-technologies {
+    height: 43px;
+    background-image: url(/media/sponsors/Mach7-Technologies-logo-150x43.jpg);
+}
+.logo.burlington-telecom {
+    width: 225px;
+    height: 57px;
+    background-image: url(/media/sponsors/Burlington-Telecom-logo-225x57.jpg);
+}
+.logo.the-university-of-vermont-medical-center {
+    width: 225px;
+    height: 66px;
+    background-image: url(/media/sponsors/The-University-of-Vermont-Medical-Center-logo-225x66.jpg);
+}
+.logo.allscripts {
     width: 200px;
-    height: 41px;
-    margin-top: 15px;
-    background-image: url(/media/sponsors/girl-develop-it-logo-200x41.png);
+    height: 43px;
+    background-image: url(/media/sponsors/Allscripts-logo-200x43.jpg);
+}
+.logo.btv-ignite {
+    height: 75px;
+    background-image: url(/media/sponsors/BTV-Ignite-logo-150x75.jpg);
 }
 ul.sponsors li.static-logo-wrapper {
     margin: 0;
